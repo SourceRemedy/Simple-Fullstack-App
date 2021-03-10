@@ -9,7 +9,6 @@ div.details {
 }
 div.details div {
     display: inline;
-    width: 30%;
     border: 1px solid black;
 }
 
@@ -18,4 +17,14 @@ body {
     background-color: beige;
     color: #ba3f38;
     line-height: 2;
+  }
+
+  li.home, li.forums {
+    display: inline;
+  }
+
+  ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
