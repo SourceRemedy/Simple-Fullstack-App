@@ -57,13 +57,13 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
+        <li ><a href="index.html">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li class="active"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
@@ -75,12 +75,15 @@
       
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>Welcome</h1>
-      <p>Our website is focused on providing multiple forums where people can ask and receive answers over a wide variety of subjects.</p>
-      <hr>
-      <h3>Login</h3>
-      <p>If you would like to log in, please click the link in the top right.</p>
-    </div>
+        <form id="login">
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username" />
+            <br />
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" /> <br />
+            <input type="submit" value="Login / Create Account" />
+        </form>
+      </div>
     <div class="col-sm-2 sidenav">
       
     </div>

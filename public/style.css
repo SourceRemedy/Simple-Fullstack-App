@@ -9,13 +9,6 @@ div.details {
 }
 div.details div {
     display: inline;
-    width: 30%;
     border: 1px solid black;
 }
 
-body {
-    text-align: center;
-    background-color: beige;
-    color: #ba3f38;
-    line-height: 2;
-  }
