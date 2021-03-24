@@ -12,4 +12,8 @@ div.details div {
     border: 1px solid black;
 }
 
-
+div.post {
+    border: 1px solid black;
+    width: 50%;
+    margin: 10px auto;
+}
