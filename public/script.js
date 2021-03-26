@@ -124,27 +124,6 @@ function loadData() {
                 datetime: new Date(),
                 numLikes: 3,
                 comments: []
-            },
-            {
-                text: "I got a new dog last night! It's so cute!",
-                user: "kimmy23",
-                datetime: new Date(),
-                numLikes: 3,
-                comments: []
-            },
-            {
-                text: "I got a new dog last night! It's so cute!",
-                user: "kimmy23",
-                datetime: new Date(),
-                numLikes: 3,
-                comments: []
-            },
-            {
-                text: "I got a new dog last night! It's so cute!",
-                user: "kimmy23",
-                datetime: new Date(),
-                numLikes: 3,
-                comments: []
             }
         ],
         users: [
@@ -154,13 +133,6 @@ function loadData() {
                 lastName: "Bash",
                 gender: "F",
                 age: 45
-            },
-            {
-                username: "wordup",
-                firstName: "John",
-                lastName: "Word",
-                gender: "M",
-                age: 31
             },
             {
                 username: "dogguy23",
