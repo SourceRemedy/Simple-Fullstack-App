@@ -81,7 +81,7 @@
             <br />
             <label for="password">Password: </label>
             <input type="password" name="password" id="password" /> <br />
-            <input type="submit" value="Login / Create Account" />
+            <input type="submit" onclick="check(this.form)" value="Login / Create Account" />
         </form>
       </div>
     <div class="col-sm-2 sidenav">
@@ -93,6 +93,17 @@
 <footer class="container-fluid text-center">
   <p></p>
 </footer>
+
+<script language="javascript">
+function check(form) {
+  if(form.username.value == "Remy" && form.password.value == "Pokemon20128") {
+    alert("You have succesfully been logged in!")
+  }
+  else {
+    alert ("Your account has been created!")
+  }
+}
+</script>
 
 </body>
 </html>
