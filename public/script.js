@@ -15,6 +15,9 @@ function login(e) {
     }
     fetch("/login", payload)
         .then(res => res.json())
-        .then(res => console.log(res.body))
+        .then(res => {
+            user_id = res.userId
+        })
         .catch(error => console.error(error))
 }
+
