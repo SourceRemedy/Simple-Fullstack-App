@@ -1,7 +1,15 @@
+const $usersContainer = document.getElementById("users")
+const $postsContainer = document.getElementById("posts")
+
+
 document.getElementById("login")
     .onsubmit = login
 
-function login(e) {
+    document.getElementById("createPost")
+    .onsubmit = createPost
+
+
+    function login(e) {
     e.preventDefault()
     const payload = {
         body: JSON.stringify({
@@ -19,5 +27,9 @@ function login(e) {
             user_id = res.userId
         })
         .catch(error => console.error(error))
+}
+
+function spawnPosts() {
+
 }
 
